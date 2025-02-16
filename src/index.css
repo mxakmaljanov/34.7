@@ -1,0 +1,114 @@
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.todo-app {
+  max-width: 432px;
+  width: 100%;
+  margin: 74px auto;
+}
+
+.todo-post {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post {
+  width: 88.19%;
+  padding: 11px 15px;
+  font-size: 16px;
+  border: 1px solid #3E1671;
+  border-radius: 10px;
+  color: #9E78CF;
+}
+
+.button-puls {
+  background-color: #9E78CF;
+  border: none;
+  padding: 11px;
+  border-radius: 10px;
+}
+
+.button-puls img {
+  background: #00000000;
+}
+
+.section-todo {
+  width: 100%;
+  margin-top: 60px;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.todo-item {
+  padding: 21px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #15101C;
+  border-radius: 10px;
+  margin-top: 16px;
+}
+
+.todo-item h4 {
+  color: #9E78CF;
+  background-color: #00000000;
+  font-weight: 300;
+  display: block;
+  word-break: break-word;
+}
+
+.button-task {
+  background: #00000000;
+  align-items: center;
+  gap: 8px;
+}
+
+.gl,
+.delete {
+  background: #968f8f00;
+  padding: 9px 6px;
+
+  border: none;
+}
+
+.gl img {
+  background: #ffffff00;
+}
+
+.delete img {
+  background: #00000000;
+
+}
+
+.sectionDone {
+  width: 100%;
+  margin-top: 60px;
+}
+
+
+.todo-done {
+  padding: 28px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #15101C;
+  border-radius: 10px;
+  margin-top: 16px;
+}
+
+.todo-done h4 {
+  color: #78CFB0;
+  text-decoration: line-through;
+  background-color: #00000000;
+  font-weight: 300;
+  display: block;
+  word-break: break-word;
+}
