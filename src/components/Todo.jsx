@@ -33,7 +33,7 @@ function Todo() {
        <input
        value={task}     
      onChange={(e) => setTask(e.target.value)}
-   className='post' type="text" placeholder='Ishni kiriting endi:)' />
+   className='post' type="text" placeholder='Ishni kiriting endi :)' />
   <button onClick={handleSubmit} className='button-puls'><img src={imgpuls} /></button>
  </div>
   <div className="section-todo">
